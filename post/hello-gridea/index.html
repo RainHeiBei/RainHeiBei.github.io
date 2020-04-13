@@ -12,10 +12,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://mda.github.io/favicon.ico?v=1586752076055">
+<link rel="shortcut icon" href="https://RainHeiBei.github.io/favicon.ico?v=1586759085055">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://mda.github.io/styles/main.css">
+<link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -29,10 +35,10 @@
       <div class="site-header-container">
   <div class="site-header">
     <div class="left">
-      <a href="https://mda.github.io">
-        <img class="avatar" src="https://mda.github.io/images/avatar.png?v=1586752076055" alt="" width="32px" height="32px">
+      <a href="https://RainHeiBei.github.io">
+        <img class="avatar" src="https://RainHeiBei.github.io/images/avatar.png?v=1586759085055" alt="" width="32px" height="32px">
       </a>
-      <a href="https://mda.github.io">
+      <a href="https://RainHeiBei.github.io">
         <h1 class="site-title">毛球-Dog协会-关于狗狗与创造</h1>
       </a>
     </div>
@@ -80,7 +86,7 @@
       <div class="content-container">
         <div class="post-detail">
           
-            <div class="feature-container" style="background-image: url('https://mda.github.io/post-images/hello-gridea.png')">
+            <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/hello-gridea.png')">
             </div>
           
           <h2 class="post-title">Hello Gridea</h2>
@@ -90,7 +96,7 @@
               <span>
                 <i class="icon-pricetags-outline"></i>
                 
-                  <a href="https://mda.github.io/tag/QAsEtlunk/">
+                  <a href="https://RainHeiBei.github.io/tag/QAsEtlunk/">
                     Gridea
                     
                   </a>
@@ -128,6 +134,12 @@
       </div>
 
       
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
 
       <div class="site-footer">
   <div class="slogan">我的世界资源开发团队毛球-Dog协会官网。</div>
@@ -138,13 +150,17 @@
       
     
       
+        <a href="Rain黑贝" target="_blank">
+          <i class="fab fa-weibo"></i>
+        </a>
+      
     
       
     
       
     
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://mda.github.io/atom.xml" target="_blank">RSS</a>
+  Copyright© 2015-2020 Maoqiu Dog  association all rights reserved | <a class="rss" href="https://RainHeiBei.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
@@ -161,6 +177,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
