@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-04-15T09:34:48.265Z</updated>
+    <updated>2020-04-15T09:44:52.749Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -16,7 +16,12 @@
         <link href="https://RainHeiBei.github.io/post/quan-xin-guan-wang-jin-lai-kan-kan-bai/">
         </link>
         <updated>2020-04-13T04:26:24.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://RainHeiBei.github.io/post-images/1586943828805.png" alt="" loading="lazy"></figure>
+<p>这是一个全新的页面！原二级域名为sxl的所有网站都停运了，请不要再点击那些网站！</p>
+<p>另外，这是毛球-Dog协会的全新一站式官网，更多功能还在秘密开发中......敬请期待！！！</p>
+<p>希望大家喜欢这个全新的官网！😄</p>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://RainHeiBei.github.io/post-images/1586943828805.png" alt="" loading="lazy"></figure>
 <p>这是一个全新的页面！原二级域名为sxl的所有网站都停运了，请不要再点击那些网站！</p>
 <p>另外，这是毛球-Dog协会的全新一站式官网，更多功能还在秘密开发中......敬请期待！！！</p>
 <p>希望大家喜欢这个全新的官网！😄</p>
