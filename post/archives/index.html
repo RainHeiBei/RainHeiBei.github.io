@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | 毛球-Dog协会-关于狗狗与创造</title>
+<title>大数据 | 毛球-Dog协会-关于狗狗与创造</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,28 @@
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="我的世界资源开发团队毛球-Dog协会官网。">
+    <meta name="description" content="截止到2020年4月16日，以下为毛球-Dog协会在全网的总数据。
+全网粉丝数 12285
+全网播放量&amp;下载量 约62万+
+团队总人数 22
+网易后台积分 90万+
+......
+将来，我们还会有更多惊人的数据！
+
+..." />
+    <meta name="keywords" content="大数据,毛球-Dog协会" />
   </head>
   <body>
     <div id="app" class="main">
@@ -94,14 +109,49 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">大数据</h2>
+            <div class="post-date">2020-04-16</div>
             
-              <a class="tag" href="https://RainHeiBei.github.io/tag/PS2DH94z3/">公告</a>
+              <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/archives.png')">
+              </div>
             
-              <a class="tag" href="https://RainHeiBei.github.io/tag/1b_rLZ2cp/">毛球-Dog协会</a>
+            <div class="post-content" v-pre>
+              <p>截止到2020年4月16日，以下为毛球-Dog协会在全网的总数据。</p>
+<p>全网粉丝数 12285<br>
+全网播放量&amp;下载量 约62万+<br>
+团队总人数 22<br>
+网易后台积分 90万+<br>
+......<br>
+将来，我们还会有更多惊人的数据！<br>
+<img src="https://RainHeiBei.github.io/post-images/1587009805893.png" alt="" loading="lazy"></p>
+
+            </div>
             
+              <div class="tag-container">
+                
+                  <a href="https://RainHeiBei.github.io/tag/3VLu24zFM/" class="tag">
+                    大数据
+                  </a>
+                
+                  <a href="https://RainHeiBei.github.io/tag/1b_rLZ2cp/" class="tag">
+                    毛球-Dog协会
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -121,6 +171,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
