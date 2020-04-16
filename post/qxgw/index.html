@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>毛球-Dog协会-关于狗狗与创造</title>
+<title>全新官网，进来看看呗 | 毛球-Dog协会-关于狗狗与创造</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,14 +12,23 @@
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="我的世界资源开发团队毛球-Dog协会官网。">
-    
+    <meta name="description" content="这是一个全新的页面！原二级域名为sxl的所有网站都停运了，请不要再点击那些网站！
+另外，这是毛球-Dog协会的全新一站式官网，更多功能还在秘密开发中......敬请期待！！！
+希望大家喜欢这个全新的官网！😄
+..." />
+    <meta name="keywords" content="公告,毛球-Dog协会" />
   </head>
   <body>
     <div id="app" class="main">
@@ -95,32 +104,43 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://RainHeiBei.github.io/post/qxgw/">
-                  <h2 class="post-title">全新官网，进来看看呗</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-13
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">全新官网，进来看看呗</h2>
+            <div class="post-date">2020-04-13</div>
+            
+              <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/qxgw.png')">
               </div>
-              
-                <a class="right" href="https://RainHeiBei.github.io/post/qxgw/">
-                  <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/qxgw.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content" v-pre>
+              <p>这是一个全新的页面！原二级域名为sxl的所有网站都停运了，请不要再点击那些网站！</p>
+<p>另外，这是毛球-Dog协会的全新一站式官网，更多功能还在秘密开发中......敬请期待！！！</p>
+<p>希望大家喜欢这个全新的官网！😄</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://RainHeiBei.github.io/tag/PS2DH94z3/" class="tag">
+                    公告
+                  </a>
+                
+                  <a href="https://RainHeiBei.github.io/tag/1b_rLZ2cp/" class="tag">
+                    毛球-Dog协会
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -141,6 +161,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
