@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>毛球-Dog协会-关于狗狗与创造</title>
+<title>团队简介 | 毛球-Dog协会-关于狗狗与创造</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,14 +12,22 @@
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="我的世界资源开发团队毛球-Dog协会官网。">
-    
+    <meta name="description" content="毛球-Dog协会(MDA)创建于2015年11月1日，是一个有着悠久历史的团队，重建于2019年3月。
+创始人为Rain黑贝。
+毛球-Dog协会是基于游戏我的世界(Minecraft)的二次创作团队及玩家组织。我们致力于我的世界pe移动端资..." />
+    <meta name="keywords" content="团队简介,毛球-Dog协会" />
   </head>
   <body>
     <div id="app" class="main">
@@ -101,32 +109,45 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://RainHeiBei.github.io/post/xuanran1/">
-                  <h2 class="post-title">「渲染图」熬夜看电脑</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-17
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">团队简介</h2>
+            <div class="post-date">2020-04-17</div>
+            
+              <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/brief introduction.png')">
               </div>
-              
-                <a class="right" href="https://RainHeiBei.github.io/post/xuanran1/">
-                  <div class="feature-container" style="background-image: url('https://RainHeiBei.github.io/post-images/xuanran1.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content" v-pre>
+              <p>毛球-Dog协会(MDA)创建于2015年11月1日，是一个有着悠久历史的团队，重建于2019年3月。<br>
+创始人为Rain黑贝。<br>
+毛球-Dog协会是基于游戏我的世界(Minecraft)的二次创作团队及玩家组织。我们致力于我的世界pe移动端资源开发，我的世界风格漫画制作，解说等。</p>
+<p>目前我们在网易我的世界发布资源作品，网易我的世界资源中心搜索MDA或Rain黑贝即可<br>
+百度，哔哩哔哩，网易大神，QQ音乐等平台也是我们的发布平台</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://RainHeiBei.github.io/tag/9IVRoZGCS/" class="tag">
+                    团队简介
+                  </a>
+                
+                  <a href="https://RainHeiBei.github.io/tag/1b_rLZ2cp/" class="tag">
+                    毛球-Dog协会
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -147,6 +168,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
