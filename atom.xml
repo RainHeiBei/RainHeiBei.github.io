@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-04-20T02:43:46.545Z</updated>
+    <updated>2020-04-21T02:22:53.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[「渲染图」纪念Avicii]]></title>
+        <id>https://RainHeiBei.github.io/post/xrtjnas/</id>
+        <link href="https://RainHeiBei.github.io/post/xrtjnas/">
+        </link>
+        <updated>2020-04-20T10:31:10.000Z</updated>
+        <content type="html"><![CDATA[<p>2018年的今天，有名的DJ艾维奇去世了。<br>
+4月20日，是艾维奇的忌日。<br>
+我们也制作出了纪念A神的图片。<br>
+作者 Rain黑贝</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「同人-猫设」老邢]]></title>
         <id>https://RainHeiBei.github.io/post/trcatslx/</id>
