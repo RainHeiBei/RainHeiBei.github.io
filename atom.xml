@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-04-21T02:22:53.536Z</updated>
+    <updated>2020-04-23T00:50:45.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[关于本团队招不招人的公告]]></title>
+        <id>https://RainHeiBei.github.io/post/notice/</id>
+        <link href="https://RainHeiBei.github.io/post/notice/">
+        </link>
+        <updated>2020-04-23T00:47:24.000Z</updated>
+        <content type="html"><![CDATA[<p>直接明了：不-招-人！！！<br>
+别问我为什么。<br>
+虽然我们的小团队人数少，但我相信，我们能用自己的力量来造福MC圈的！！!<br>
+😃😃😃</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「渲染图」纪念Avicii]]></title>
         <id>https://RainHeiBei.github.io/post/xrtjnas/</id>
