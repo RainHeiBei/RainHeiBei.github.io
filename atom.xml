@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-04-23T01:00:41.494Z</updated>
+    <updated>2020-05-01T07:38:46.064Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[「渲染图」某邢の三设]]></title>
+        <id>https://RainHeiBei.github.io/post/xuanran2/</id>
+        <link href="https://RainHeiBei.github.io/post/xuanran2/">
+        </link>
+        <updated>2020-05-01T07:32:50.000Z</updated>
+        <content type="html"><![CDATA[<p>北辰编辑部最最最最最最最最最（省略100000个最）具人气，高冷的成员的三设<br>
+看过《北辰逸事》或者《科技游戏》的，应该都认识他吧！<br>
+作者 Rain黑贝</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于本团队招不招人的公告]]></title>
         <id>https://RainHeiBei.github.io/post/notice/</id>
