@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-05-24T04:55:04.164Z</updated>
+    <updated>2020-05-24T05:01:12.559Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[「通知」《科技游戏》停更公告]]></title>
+        <id>https://RainHeiBei.github.io/post/noticekjys/</id>
+        <link href="https://RainHeiBei.github.io/post/noticekjys/">
+        </link>
+        <updated>2020-05-24T04:55:32.000Z</updated>
+        <content type="html"><![CDATA[<p>由于剧情太中二，导致漫画停更。即日起将不再更新与此漫画有关的任何，社区也将停止更新。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「小说」平行国度·序]]></title>
         <id>https://RainHeiBei.github.io/post/pxgdxu/</id>
@@ -111,17 +120,6 @@
 根据真实事件联想的渲染图<br>
 看过《科技游戏》或《北辰逸事》这两部漫画的朋友们应该知道他是谁吧！</p>
 <p>下载前您必须保证该壁纸版权归毛球-Dog协会，您也必须保证此壁纸不作为商用，右下角的作者水印务必不要涂掉。如果我们发现有人侵权，我们一定严肃处理！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全新官网，进来看看呗]]></title>
-        <id>https://RainHeiBei.github.io/post/qxgw/</id>
-        <link href="https://RainHeiBei.github.io/post/qxgw/">
-        </link>
-        <updated>2020-04-13T04:26:24.000Z</updated>
-        <content type="html"><![CDATA[<p>这是一个全新的页面！原二级域名为sxl的所有网站都停运了，请不要再点击那些网站！</p>
-<p>另外，这是毛球-Dog协会的全新一站式官网，更多功能还在秘密开发中......敬请期待！！！</p>
-<p>希望大家喜欢这个全新的官网！😄</p>
 ]]></content>
     </entry>
 </feed>
