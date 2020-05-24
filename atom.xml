@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-05-16T09:09:36.000Z</updated>
+    <updated>2020-05-24T04:50:57.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[「小说」平行国度·序]]></title>
+        <id>https://RainHeiBei.github.io/post/pxgdxu/</id>
+        <link href="https://RainHeiBei.github.io/post/pxgdxu/">
+        </link>
+        <updated>2020-05-24T04:47:34.000Z</updated>
+        <content type="html"><![CDATA[<p>Minecraft3000年，一切都被科技所取代。没有人再使用手机这些便捷的电子产品了，一切都被科技化的事物所取代-----随便找一处平面即可自动登录你自己在这个世界的账号，通用的，也无需再翻VPN这些的了。</p>
+<p>平行国度中的平行市，是在平行国度中最大的都市。</p>
+<p>而一场关于友情与无限可能的故事即将在这上演......</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「渲染图」李某の二设]]></title>
         <id>https://RainHeiBei.github.io/post/xuanranlmss/</id>
