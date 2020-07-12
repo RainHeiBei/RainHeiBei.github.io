@@ -252,7 +252,15 @@
   margin-left: -5px;
   border-top-color: #e6e6e6;
 }
- 
+
+      #usercard .card-bg {
+        background-image: url('https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.5/CDN/pic/background/bgm.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+     
         #bg{
         background-color:#fafafa;
       }
