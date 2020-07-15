@@ -303,7 +303,7 @@ textarea {
 
 #pc-menu .searchform {
     float: right;
-    margin: 5px 10px;
+    margin: 5px -25px;
     position: relative;
 }
 
@@ -1619,15 +1619,20 @@ textarea {
     height: 100%;
 }
 
+#back-to-top-text {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
 #foot #back-to-top {
-    display: block;
+    display: inline;
     z-index: 999;
     background: #fff;
-    width: 45px;
+    width: 65px;
     height: 45px;
     line-height: 45px;
     opacity: .8;
-    color: rgba(111, 111, 111, .6);
+    color: rgba(111, 111, 111, .8);
     position: fixed;
     text-align: center;
     text-decoration: none;

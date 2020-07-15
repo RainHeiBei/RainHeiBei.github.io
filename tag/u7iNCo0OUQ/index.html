@@ -22,7 +22,7 @@
 <meta name="keywords" content="毛球-Dog协会官网,MDA官网">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1594787541200">
+<meta name="UpdateTime" content="1594790598004">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
@@ -34,7 +34,7 @@
 <!--<script async src="https://RainHeiBei.github.io/media/js/script.min.js"></script>-->
 <!--<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />-->
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.26/CDN/css/Card/main.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.32/CDN/css/Card/main.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/iconfont.css" />
 <!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -193,13 +193,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1594787541200" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1594790598004" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1594787541200" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1594790598004" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -536,7 +536,7 @@
         </div>
 </body>
 <footer id="foot">
-    <a id="back-to-top" href="#"><i class="Card Card-top"></i></a>
+    <a id="back-to-top" href="#"><i class="Card Card-top" ></i><span id="back-to-top-text">0%</span></a>
     <div class="copyright">
         Copyright© 2015-2020 Maoqiu Dog  association all rights reserved
             
@@ -565,6 +565,13 @@
                             </a>
     </div>
     <script>
+        let back2TopText = document.querySelector('#back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
         var titleTime;
         document.addEventListener("visibilitychange", function() {
             document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
