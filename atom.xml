@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-07-15T05:25:13.561Z</updated>
+    <updated>2020-07-18T11:57:19.726Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -121,21 +121,6 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[关于本团队招不招人的公告]]></title>
-        <id>https://RainHeiBei.github.io/post/notice/</id>
-        <link href="https://RainHeiBei.github.io/post/notice/">
-        </link>
-        <updated>2020-04-23T00:47:24.000Z</updated>
-        <content type="html"><![CDATA[<p>直接明了：不-招-人！！！<br>
-别问我为什么。<br>
-问也就是，我们的团队的每一位成员虽说算不上大佬，但都是精英中的精英😄😎<br>
-大多数团队力求人数却不求品质，当然还有那些团队成员都是大佬的。但是，是不是都是从萌新一步步来走到成为大佬的那一步的？<br>
-我们团队也就是照着这个标准走的。</p>
-<p>虽然我们的小团队人数少，但我相信，我们能用自己的力量来造福MC圈的！！!</p>
-<p>😃😃😃</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[「渲染图」纪念Avicii]]></title>
         <id>https://RainHeiBei.github.io/post/xrtjnas/</id>
         <link href="https://RainHeiBei.github.io/post/xrtjnas/">
@@ -145,6 +130,19 @@
 4月20日，是艾维奇的忌日。<br>
 我们也制作出了纪念A神的图片。<br>
 作者 Rain黑贝</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「同人-猫设」老邢]]></title>
+        <id>https://RainHeiBei.github.io/post/trcatslx/</id>
+        <link href="https://RainHeiBei.github.io/post/trcatslx/">
+        </link>
+        <updated>2020-04-20T02:30:57.000Z</updated>
+        <content type="html"><![CDATA[<p>毛球-Dog协会成员的同人图区-猫设系列震撼来袭！！！</p>
+<p>作者 Rain黑贝<br>
+这是老邢的猫设。。。<br>
+喜欢的可以下载，严禁盗图！<br>
+<img src="https://RainHeiBei.github.io/post-images/1587350620696.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
