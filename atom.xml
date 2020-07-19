@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-07-18T11:57:19.726Z</updated>
+    <updated>2020-07-19T08:24:53.285Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[毛球-Dog协会官网建站100天！！！]]></title>
+        <id>https://RainHeiBei.github.io/post/jz100days/</id>
+        <link href="https://RainHeiBei.github.io/post/jz100days/">
+        </link>
+        <updated>2020-07-19T08:19:50.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://RainHeiBei.github.io/post-images/1595147017371.PNG" alt="" loading="lazy"><br>
+毛球-Dog协会官网建站100天！<br>
+总的来说，这是个值得纪念的事情。<br>
+一开始，网站用建站软件上线了建的。可是它太过充钱化了，基本功能基本都要钱。当时就搞了个简陋的。后来网站有一天被人植入病毒了，网站被迫关闭。<br>
+到现在，100天了，这个网站很好。<br>
+这100天是怎样的呢？快乐的，真的<br>
+就这样，一起庆祝吧！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「杂谈」如何去养一只宠物]]></title>
         <id>https://RainHeiBei.github.io/post/zatanraiseapet/</id>
@@ -130,19 +145,6 @@
 4月20日，是艾维奇的忌日。<br>
 我们也制作出了纪念A神的图片。<br>
 作者 Rain黑贝</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「同人-猫设」老邢]]></title>
-        <id>https://RainHeiBei.github.io/post/trcatslx/</id>
-        <link href="https://RainHeiBei.github.io/post/trcatslx/">
-        </link>
-        <updated>2020-04-20T02:30:57.000Z</updated>
-        <content type="html"><![CDATA[<p>毛球-Dog协会成员的同人图区-猫设系列震撼来袭！！！</p>
-<p>作者 Rain黑贝<br>
-这是老邢的猫设。。。<br>
-喜欢的可以下载，严禁盗图！<br>
-<img src="https://RainHeiBei.github.io/post-images/1587350620696.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
