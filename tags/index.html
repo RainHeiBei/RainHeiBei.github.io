@@ -22,7 +22,7 @@
 <meta name="keywords" content="毛球-Dog协会官网,MDA官网">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1595147082471">
+<meta name="UpdateTime" content="1597413373435">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
@@ -187,13 +187,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1595147082471" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1597413373435" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1595147082471" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1597413373435" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -532,13 +532,22 @@
                         </div>
                         <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
                         <script>
-                            setInterval(show_date_time, 1000, '2020-4-10');
+                            buildTime = '2020-4-10'
+                            setInterval(show_date_time, 1000, buildTime);
                         </script>
                         
                             &#x7248;&#x6743;&#x6240;&#x6709; &copy;
                             <span class="my-face"><script>
                         var date = new Date();
-                        document.write("" + date.getFullYear());
+                        data2 = new Date(buildTime.replace(/-/g,"/"));
+                        nowYear = date.getFullYear().toString()
+                        buildYear = data2.getFullYear().toString();
+                        if( buildYear == nowYear){
+                            document.write(nowYear);
+                        }
+                        else{
+                            document.write(buildYear+"-" + nowYear);
+                        }
                     </script>
                    </span>
                             <a href="https://RainHeiBei.github.io">

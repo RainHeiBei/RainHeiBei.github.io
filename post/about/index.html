@@ -22,7 +22,7 @@
 <meta name="keywords" content="毛球-Dog协会官网,MDA官网">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1595147082471">
+<meta name="UpdateTime" content="1597413373435">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
@@ -187,13 +187,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1595147082471" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1597413373435" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1595147082471" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1597413373435" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -283,7 +283,7 @@
                                                         <span class="post-edit"></span></div>
                                         </div>
                                         <div class="post-relative">
-                                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1595147082471" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1595147082471" class="avatar avatar-100 photo" width="100" height="100">
+                                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413373435" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413373435" class="avatar avatar-100 photo" width="100" height="100">
                                             <span class="post-type-author"><a href="https://RainHeiBei.github.io" title="由毛球-Dog协会-关于狗狗与创造发布" rel="author">毛球-Dog协会-关于狗狗与创造<i class="Card Card-certify"></i></a></span>
                                             <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2020-04-13</span>
                                         </div>
@@ -351,7 +351,7 @@ QQ群  850086342<br>
     <i class="post-share"></i>
     <span>&#x5206;&#x4EAB;:</span>
                 <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/about/"><i class="fa fa-qrcode"></i></a>
-                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://RainHeiBei.github.io/post/about/&sharesource=qzone&title=关于&pics=https://RainHeiBei.github.io/images/avatar.png?v=1595147082471&summary=&lt;blockquote&gt;
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://RainHeiBei.github.io/post/about/&sharesource=qzone&title=关于&pics=https://RainHeiBei.github.io/images/avatar.png?v=1597413373435&summary=&lt;blockquote&gt;
 &lt;p&gt;欢迎来到毛球-Dog协会官网！&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;关注我们&lt;br&gt;
@@ -388,7 +388,7 @@ QQ群  850086342&lt;br&gt;
 反馈吐槽平台 https://support.qq.com/product/140377&lt;br&gt;
 《北辰逸事》漫画Fandom社区Wiki https://bcys.fandom.com/zh/wiki/&lt;/p&gt;
 &lt;p&gt;团队社区 https://mda.fandom.com/zh/f&lt;/p&gt;
-&pic="https://RainHeiBei.github.io/images/avatar.png?v=1595147082471"><i class="fa fa-weibo "></i></a>
+&pic="https://RainHeiBei.github.io/images/avatar.png?v=1597413373435"><i class="fa fa-weibo "></i></a>
                 </span>
                 
                     
@@ -647,13 +647,22 @@ QQ群  850086342&lt;br&gt;
                         </div>
                         <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
                         <script>
-                            setInterval(show_date_time, 1000, '2020-4-10');
+                            buildTime = '2020-4-10'
+                            setInterval(show_date_time, 1000, buildTime);
                         </script>
                         
                             &#x7248;&#x6743;&#x6240;&#x6709; &copy;
                             <span class="my-face"><script>
                         var date = new Date();
-                        document.write("" + date.getFullYear());
+                        data2 = new Date(buildTime.replace(/-/g,"/"));
+                        nowYear = date.getFullYear().toString()
+                        buildYear = data2.getFullYear().toString();
+                        if( buildYear == nowYear){
+                            document.write(nowYear);
+                        }
+                        else{
+                            document.write(buildYear+"-" + nowYear);
+                        }
                     </script>
                    </span>
                             <a href="https://RainHeiBei.github.io">
