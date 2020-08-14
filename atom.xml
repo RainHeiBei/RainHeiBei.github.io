@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2020-08-14T13:57:54.257Z</updated>
+    <updated>2020-08-14T14:04:22.419Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[QQ音乐获得认证！]]></title>
+        <id>https://RainHeiBei.github.io/post/xb/</id>
+        <link href="https://RainHeiBei.github.io/post/xb/">
+        </link>
+        <updated>2020-08-14T14:00:18.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://RainHeiBei.github.io/post-images/1597413696099.jpg" alt="" loading="lazy"><br>
+团队会长黑贝在QQ音乐中获得了认证，这也是团队入驻QQ音乐的一个巨大里程碑！<br>
+另外我们在QQ音乐也有入驻的话题啦！！！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[毛球-Dog协会官网建站100天！！！]]></title>
         <id>https://RainHeiBei.github.io/post/jz100days/</id>
@@ -132,18 +143,6 @@
         <updated>2020-05-01T07:32:50.000Z</updated>
         <content type="html"><![CDATA[<p>北辰编辑部最最最最最最最最最（省略100000个最）具人气，高冷的成员的三设<br>
 看过《北辰逸事》或者《科技游戏》的，应该都认识他吧！<br>
-作者 Rain黑贝</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「渲染图」纪念Avicii]]></title>
-        <id>https://RainHeiBei.github.io/post/xrtjnas/</id>
-        <link href="https://RainHeiBei.github.io/post/xrtjnas/">
-        </link>
-        <updated>2020-04-20T10:31:10.000Z</updated>
-        <content type="html"><![CDATA[<p>2018年的今天，有名的DJ艾维奇去世了。<br>
-4月20日，是艾维奇的忌日。<br>
-我们也制作出了纪念A神的图片。<br>
 作者 Rain黑贝</p>
 ]]></content>
     </entry>
