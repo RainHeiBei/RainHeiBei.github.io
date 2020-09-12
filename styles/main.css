@@ -1,6 +1,9 @@
 @charset "UTF-8";
 * {
   cursor: url("https://cdn.jsdelivr.net/gh/WRPZKB/ImagePicgo/houxuan.cur"), auto !important;
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 :active {
   cursor: url("https://cdn.jsdelivr.net/gh/WRPZKB/ImagePicgo/zc.cur"), auto !important;
@@ -40,7 +43,7 @@
   margin-bottom: 0;
 }
 .copyright a:hover {
-  color: #336699;
+  color: #6b6b6b;
   text-decoration: none;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 }
@@ -122,6 +125,98 @@
 }
 #sidebar .lite-item .textwidget {
   padding: 8px;
+}
+.friend-card {
+  background-color: #fafafa11;
+  border-radius: 5px;
+}
+#themeIcon {
+  font-size: 22px;
+}
+.theme-btn {
+  display: inline-block;
+  width: auto;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  z-index: 5555;
+  right: 10px;
+}
+.theme-dark {
+  filter: invert(100) hue-rotate(180deg);
+  isolation: isolate;
+}
+.theme-dark img {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark a {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark h1 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark h2 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark h3 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark h4 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark h5 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark h6 {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark .friend-card {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark img > p {
+  color: #fafafa;
+}
+.theme-dark figure {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark iframe {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .post-info {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .thumbnail-link {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .card-bg {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .catch-me {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark .aplayer-pic {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .post-type-author {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark .lite-item-title {
+  filter: invert(100) hue-rotate(180deg);
+  color: #fafafa;
+}
+.theme-dark #foot {
+  filter: invert(100) hue-rotate(180deg);
+}
+.theme-dark .message-info {
+  filter: invert(100) hue-rotate(180deg);
 }
 .lite-item .sidebar-posts-list li,
 .lite-item ul.recentcomments li {

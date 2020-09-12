@@ -22,24 +22,41 @@
 <meta name="keywords" content="毛球-Dog协会官网,MDA官网">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1597413828373">
+<meta name="UpdateTime" content="1599898490971">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
 <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.30/CDN/js/Card/script.min.js"></script>
-<!--<script async src="https://RainHeiBei.github.io/media/js/script.min.js"></script>-->
-<!--<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />-->
+<!--<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>-->
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://RainHeiBei.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.32/CDN/css/Card/main.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/iconfont.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
 <!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/love.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
 <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                document.getElementsByTagName('html')[0].classList.add('theme-dark');
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                document.getElementsByTagName('html')[0].classList.remove('theme-dark');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
 
     <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
     
@@ -64,7 +81,7 @@
                         }
                         
                         #foot {
-                            color: #000;
+                            color: #666666;
                         }
                         
                         #menu-item:hover {
@@ -93,18 +110,19 @@
                         }
                         
                         .lite-item {
-                            background-color: #fff;
+                            background-color: #fafafa;
                         }
                         
                         #spnBtn:hover {
                             transition: all .3s ease;
                             color: #fff;
-                            background: #0092ee;
+                            background-color: #6b6b6b;
+                            /*#0092ee*/
                             /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
                         }
                         
                         #spnBtn {
-                            background-color: #fcfcfc;
+                            background-color: #efefef;
                             font-size: 14px;
                             transition: all .3s ease;
                         }
@@ -113,7 +131,7 @@
                             margin-top: 10px;
                             margin-bottom: 10px;
                             color: #fff;
-                            border-left: 8px solid #1976d2;
+                            border-left: 8px solid #6b6b6b;
                             padding: 5px;
                             transition: all .3s ease;
                         }
@@ -129,6 +147,7 @@
 
 <body>
     <header id="header">
+
     <div id="pc-menu">
         <a id="menu-bar" class="Card Card-menu"></a>
         <a id="menu-title" href="https://RainHeiBei.github.io">
@@ -187,13 +206,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1597413828373" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1599898490971" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1597413828373" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1599898490971" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -251,6 +270,7 @@
             </ul>
         </nav>
     </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
 </header>
         <div id="main">
             <div id="usercard">
@@ -259,7 +279,7 @@
                         <div class="card-bg"></div>
                         <div class="card-info">
                             
-                                    <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar" style="height: 100px;">
+                                    <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" style="height: 100px;">
                                     
                                         <span class="card-info-block card-info-name">毛球-Dog协会-关于狗狗与创造&nbsp;<i
                                 class="Card Card-certify"></i></span>
@@ -276,8 +296,6 @@
                                                 
                                                         
                                                 
-                                                    <a data-content="github" data-balloon-pos="up" target="_blank" href="https://github.com/RainHeiBei"><i class="fa fa-github"></i></a>
-                                                    
                                                         
                                                 
                                                         
@@ -313,7 +331,398 @@
             <header class="post-type-header">
                 <div class="post-relative">
                     
-                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar" width="100" height="100">
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-07-15</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/zatanraiseapet/" rel="bookmark" title="「杂谈」如何去养一只宠物">
+                                        
+                                                「杂谈」如何去养一只宠物
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/9Y9CpnccW/" rel="category">
+                                    杂谈
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/zatanraiseapet/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/zatanraiseapet/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-07-11</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/xrlose/" rel="bookmark" title="「渲染图」平行国度·Lose">
+                                        
+                                                「渲染图」平行国度·Lose
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/09W7TnA_R/" rel="category">
+                                    同人
+                                        
+                                            ,
+                                            
+                                </a>
+                                
+                                <a href="https://RainHeiBei.github.io/tag/WT1U433Eo/" rel="category">
+                                    渲染图
+                                        
+                                            ,
+                                            
+                                </a>
+                                
+                                <a href="https://RainHeiBei.github.io/tag/mvAPk-tllT/" rel="category">
+                                    壁纸
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/xrlose/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/xrlose/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-05-30</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/pxgdpxjh/" rel="bookmark" title="「小说」平行国度·01 平行计划">
+                                        
+                                                「小说」平行国度·01 平行计划
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/ZGy8lcx4Q/" rel="category">
+                                    小说
+                                        
+                                            ,
+                                            
+                                </a>
+                                
+                                <a href="https://RainHeiBei.github.io/tag/u7iNCo0OUQ/" rel="category">
+                                    平行国度
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/pxgdpxjh/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/pxgdpxjh/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-05-24</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/pxgdxu/" rel="bookmark" title="「小说」平行国度·序">
+                                        
+                                                「小说」平行国度·序
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/ZGy8lcx4Q/" rel="category">
+                                    小说
+                                        
+                                            ,
+                                            
+                                </a>
+                                
+                                <a href="https://RainHeiBei.github.io/tag/u7iNCo0OUQ/" rel="category">
+                                    平行国度
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/pxgdxu/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/pxgdxu/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-05-16</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/xuanranlmss/" rel="bookmark" title="「渲染图」李某の二设">
+                                        
+                                                「渲染图」李某の二设
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/WT1U433Eo/" rel="category">
+                                    渲染图
+                                        
+                                            ,
+                                            
+                                </a>
+                                
+                                <a href="https://RainHeiBei.github.io/tag/mvAPk-tllT/" rel="category">
+                                    壁纸
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/xuanranlmss/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/xuanranlmss/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-05-16</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/April recognition/" rel="bookmark" title="四月优秀成员表彰">
+                                        
+                                                四月优秀成员表彰
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                            <i class="fa fa-tags" aria-hidden="true"></i>
+                            
+                                <a href="https://RainHeiBei.github.io/tag/6oBavRurB/" rel="category">
+                                    表彰特刊
+                                        
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/April recognition/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/April recognition/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
+                            
+                                <span class="post-type-author">
+                    毛球-Dog协会-关于狗狗与创造
+                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                            aria-hidden="true"></i> 2020-05-03</span>
+                                </span>
+                                <h3 class="post-type-title">
+                                    <a href="https://RainHeiBei.github.io/post/duo-ge-duan-pian-man-hua-shen-du-tuo-yan-zheng/" rel="bookmark" title="「多格短篇漫画」深度拖延症">
+                                        
+                                                「多格短篇漫画」深度拖延症
+                                    </a>
+                                </h3>
+                </div>
+            </header>
+            <div class="post-main post-type-main">
+                <div class="post-content">
+                    <div class="post-tag"></div>
+                    <div class="post-excerpt">
+                        
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    
+                    </div>
+                    <div class="post-category">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post-footer">
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/duo-ge-duan-pian-man-hua-shen-du-tuo-yan-zheng/'">
+                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
+                </span>
+                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/duo-ge-duan-pian-man-hua-shen-du-tuo-yan-zheng/')">
+                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                </span>
+            </div>
+        </article>
+    </li>
+    
+    <li class="lite-item">
+        <article class="post post-type">
+            <header class="post-type-header">
+                <div class="post-relative">
+                    
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
                             
                                 <span class="post-type-author">
                     毛球-Dog协会-关于狗狗与创造
@@ -372,7 +781,7 @@
             <header class="post-type-header">
                 <div class="post-relative">
                     
-                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar" width="100" height="100">
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
                             
                                 <span class="post-type-author">
                     毛球-Dog协会-关于狗狗与创造
@@ -431,7 +840,7 @@
             <header class="post-type-header">
                 <div class="post-relative">
                     
-                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar" width="100" height="100">
+                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar" width="100" height="100">
                             
                                 <span class="post-type-author">
                     毛球-Dog协会-关于狗狗与创造
@@ -478,73 +887,14 @@
         </article>
     </li>
     
-    <li class="lite-item">
-        <article class="post post-type">
-            <header class="post-type-header">
-                <div class="post-relative">
-                    
-                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar" width="100" height="100">
-                            
-                                <span class="post-type-author">
-                    毛球-Dog协会-关于狗狗与创造
-                    <i class="Card Card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
-                            aria-hidden="true"></i> 2020-04-17</span>
-                                </span>
-                                <h3 class="post-type-title">
-                                    <a href="https://RainHeiBei.github.io/post/xuanran1/" rel="bookmark" title="「渲染图」熬夜看电脑">
-                                        
-                                                「渲染图」熬夜看电脑
-                                    </a>
-                                </h3>
-                </div>
-            </header>
-            <div class="post-main post-type-main">
-                <div class="post-content">
-                    <div class="post-tag"></div>
-                    <div class="post-excerpt">
-                        
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                                    
-                    </div>
-                    <div class="post-category">
-                        
-                            <i class="fa fa-tags" aria-hidden="true"></i>
-                            
-                                <a href="https://RainHeiBei.github.io/tag/WT1U433Eo/" rel="category">
-                                    渲染图
-                                        
-                                            ,
-                                            
-                                </a>
-                                
-                                <a href="https://RainHeiBei.github.io/tag/mvAPk-tllT/" rel="category">
-                                    壁纸
-                                        
-                                </a>
-                                
-                                    
-                    </div>
-                </div>
-            </div>
-            <div class="post-footer">
-                <span id="spnBtn" style="text-align: center;" onclick="javascript:top.location='https://RainHeiBei.github.io/post/xuanran1/'">
-                    <i class="Card Card-more-o"></i> &#x9605;&#x8BFB;
-                </span>
-                <span id="spnBtn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/xuanran1/')">
-                    <i class=" Card Card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
-                </span>
-            </div>
-        </article>
-    </li>
-    
                     </ul>
                     <div class="lite-item">
                         
                             <span id="spnBtn" style="display: inline-block;width: 50%;text-align: center;border-right: 1px solid#e3e8e8;font-size: 14px;float: left;padding: 15px;" onclick="javascript:top.location='https://RainHeiBei.github.io/'"> &#x4E0A;&#x4E00;&#x9875;</span>
                             
                                     
-                                            <span style="display: inline-block;width: 50%;text-align: center;border-right: 1px solid#e3e8e8;font-size: 14px;padding: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                            
+                                        <span id="spnBtn" style="display: inline-block;width: 50%;text-align: center;border-right: 1px solid#e3e8e8;font-size: 14px;padding: 15px;" onclick="javascript:top.location='https://RainHeiBei.github.io/page/3/'">&#x4E0B;&#x4E00;&#x9875;</span>
+                                        
                     </div>
                 </div>
                 <div id="sidebar">
@@ -573,6 +923,20 @@
                         <script>
                             $(document).ready(function() {
                                 var entries = ([
+                                    
+                                     {
+                                        label: '🏷小说',
+                                        url: 'https://RainHeiBei.github.io/tag/ZGy8lcx4Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷平行国度',
+                                        url: 'https://RainHeiBei.github.io/tag/u7iNCo0OUQ/',
+                                        target: '_button'
+                                    },
+                                    
                                     
                                      {
                                         label: '🏷团队事迹',
@@ -612,20 +976,6 @@
                                      {
                                         label: '🏷壁纸',
                                         url: 'https://RainHeiBei.github.io/tag/mvAPk-tllT/',
-                                        target: '_button'
-                                    },
-                                    
-                                    
-                                     {
-                                        label: '🏷小说',
-                                        url: 'https://RainHeiBei.github.io/tag/ZGy8lcx4Q/',
-                                        target: '_button'
-                                    },
-                                    
-                                    
-                                     {
-                                        label: '🏷平行国度',
-                                        url: 'https://RainHeiBei.github.io/tag/u7iNCo0OUQ/',
                                         target: '_button'
                                     },
                                     
@@ -775,7 +1125,7 @@
         </div>
 </body>
 <footer id="foot">
-    <a id="back-to-top" href="#"><i class="Card Card-top" ></i><span id="back-to-top-text">0%</span></a>
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
     <div class="copyright">
         Copyright© 2015-2020 Maoqiu Dog  association all rights reserved
             
@@ -792,19 +1142,18 @@
                         </script>
                         
                             &#x7248;&#x6743;&#x6240;&#x6709; &copy;
-                            <span class="my-face"><script>
-                        var date = new Date();
-                        data2 = new Date(buildTime.replace(/-/g,"/"));
-                        nowYear = date.getFullYear().toString()
-                        buildYear = data2.getFullYear().toString();
-                        if( buildYear == nowYear){
-                            document.write(nowYear);
-                        }
-                        else{
-                            document.write(buildYear+"-" + nowYear);
-                        }
-                    </script>
-                   </span>
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
                             <a href="https://RainHeiBei.github.io">
                                 毛球-Dog协会-关于狗狗与创造
                             </a>&nbsp;|&nbsp;Powered by
@@ -813,7 +1162,7 @@
                             </a>
     </div>
     <script>
-        let back2TopText = document.querySelector('#back-to-top-text')
+        let back2TopText = document.querySelector('.back-to-top-text')
         window.addEventListener('scroll', function(e) {
             let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
             if (back2TopText) {

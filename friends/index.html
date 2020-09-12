@@ -22,24 +22,41 @@
 <meta name="keywords" content="毛球-Dog协会官网,MDA官网">
 <meta name="gridea-theme" content="Card">
 <meta name="spider" content="https://nmsl.sbjxw.网址">
-<meta name="UpdateTime" content="1597413828373">
+<meta name="UpdateTime" content="1599898490971">
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
 <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.30/CDN/js/Card/script.min.js"></script>
-<!--<script async src="https://RainHeiBei.github.io/media/js/script.min.js"></script>-->
-<!--<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />-->
+<!--<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>-->
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://RainHeiBei.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />
 <link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.32/CDN/css/Card/main.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/iconfont.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
 <!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/love.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
 <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                document.getElementsByTagName('html')[0].classList.add('theme-dark');
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                document.getElementsByTagName('html')[0].classList.remove('theme-dark');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
 
     <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
     
@@ -64,7 +81,7 @@
                         }
                         
                         #foot {
-                            color: #000;
+                            color: #666666;
                         }
                         
                         #menu-item:hover {
@@ -93,18 +110,19 @@
                         }
                         
                         .lite-item {
-                            background-color: #fff;
+                            background-color: #fafafa;
                         }
                         
                         #spnBtn:hover {
                             transition: all .3s ease;
                             color: #fff;
-                            background: #0092ee;
+                            background-color: #6b6b6b;
+                            /*#0092ee*/
                             /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
                         }
                         
                         #spnBtn {
-                            background-color: #fcfcfc;
+                            background-color: #efefef;
                             font-size: 14px;
                             transition: all .3s ease;
                         }
@@ -113,7 +131,7 @@
                             margin-top: 10px;
                             margin-bottom: 10px;
                             color: #fff;
-                            border-left: 8px solid #1976d2;
+                            border-left: 8px solid #6b6b6b;
                             padding: 5px;
                             transition: all .3s ease;
                         }
@@ -129,6 +147,7 @@
 
 <body>
     <header id="header">
+
     <div id="pc-menu">
         <a id="menu-bar" class="Card Card-menu"></a>
         <a id="menu-title" href="https://RainHeiBei.github.io">
@@ -187,13 +206,13 @@
                     
             </ul>
         </nav>
-        <form id="gridea-search-form" class="searchform" data-update="1597413828373" action="/search/index.html">
+        <form id="gridea-search-form" class="searchform" data-update="1599898490971" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
     </div>
     <div id="mobile-menu">
-        <form id="gridea-search-form" class="mobile-searchform" data-update="1597413828373" action="/search/index.html">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1599898490971" action="/search/index.html">
             <i class="Card Card-search"></i>
             <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
         </form>
@@ -251,6 +270,7 @@
             </ul>
         </nav>
     </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
 </header>
         <div id="main">
             <div id="main-part">
@@ -268,7 +288,7 @@
                                     </div>
                                 </div>
                                 <div class="post-relative">
-                                    <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1597413828373" class="avatar avatar-100 photo" width="100" height="100">
+                                    <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar avatar-100 photo" width="100" height="100">
                                     <span class="post-type-author"><a href="https://RainHeiBei.github.io" title="由毛球-Dog协会-关于狗狗与创造发布" rel="author">毛球-Dog协会-关于狗狗与创造<i class="Card Card-certify"></i></a></span>
                                     <span class="post-publish">&nbsp;</span>
                                 </div>
@@ -283,7 +303,7 @@
                                             <ul>
                                                 
                                                     
-                                                        <li>
+                                                        <li class="friend-card">
                                                             <a class="no-des" href="https://github.com/" title="GitHub · Build software better, together"><img src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=839120971,3274150665&amp;fm=26&amp;gp=0.jpg"
                                                             alt="GitHub · Build software better, together" class="avatar">
                                                         <div class="link-text"><span
@@ -293,7 +313,7 @@
                                                     </a>
                                                         </li>
                                                         
-                                                        <li>
+                                                        <li class="friend-card">
                                                             <a class="no-des" href="https://www.163.com/" title="网易"><img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1251521581,4292817559&amp;fm=179&amp;app=42&amp;f=JPEG?w=121&amp;h=140&amp;s=59A43D7241CFCAE8067890C6000080B1"
                                                             alt="网易" class="avatar">
                                                         <div class="link-text"><span
@@ -366,6 +386,20 @@
                                 var entries = ([
                                     
                                      {
+                                        label: '🏷小说',
+                                        url: 'https://RainHeiBei.github.io/tag/ZGy8lcx4Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷平行国度',
+                                        url: 'https://RainHeiBei.github.io/tag/u7iNCo0OUQ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
                                         label: '🏷团队事迹',
                                         url: 'https://RainHeiBei.github.io/tag/A_gpGDFrg/',
                                         target: '_button'
@@ -403,20 +437,6 @@
                                      {
                                         label: '🏷壁纸',
                                         url: 'https://RainHeiBei.github.io/tag/mvAPk-tllT/',
-                                        target: '_button'
-                                    },
-                                    
-                                    
-                                     {
-                                        label: '🏷小说',
-                                        url: 'https://RainHeiBei.github.io/tag/ZGy8lcx4Q/',
-                                        target: '_button'
-                                    },
-                                    
-                                    
-                                     {
-                                        label: '🏷平行国度',
-                                        url: 'https://RainHeiBei.github.io/tag/u7iNCo0OUQ/',
                                         target: '_button'
                                     },
                                     
@@ -565,7 +585,7 @@
         </div>
 </body>
 <footer id="foot">
-    <a id="back-to-top" href="#"><i class="Card Card-top" ></i><span id="back-to-top-text">0%</span></a>
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
     <div class="copyright">
         Copyright© 2015-2020 Maoqiu Dog  association all rights reserved
             
@@ -582,19 +602,18 @@
                         </script>
                         
                             &#x7248;&#x6743;&#x6240;&#x6709; &copy;
-                            <span class="my-face"><script>
-                        var date = new Date();
-                        data2 = new Date(buildTime.replace(/-/g,"/"));
-                        nowYear = date.getFullYear().toString()
-                        buildYear = data2.getFullYear().toString();
-                        if( buildYear == nowYear){
-                            document.write(nowYear);
-                        }
-                        else{
-                            document.write(buildYear+"-" + nowYear);
-                        }
-                    </script>
-                   </span>
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
                             <a href="https://RainHeiBei.github.io">
                                 毛球-Dog协会-关于狗狗与创造
                             </a>&nbsp;|&nbsp;Powered by
@@ -603,7 +622,7 @@
                             </a>
     </div>
     <script>
-        let back2TopText = document.querySelector('#back-to-top-text')
+        let back2TopText = document.querySelector('.back-to-top-text')
         window.addEventListener('scroll', function(e) {
             let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
             if (back2TopText) {

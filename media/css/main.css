@@ -7,6 +7,7 @@
 html,
 body,
 * {
+    cursor: pointer;
     margin: 0;
     padding: 0;
     border: 0;
@@ -40,7 +41,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #666;
     cursor: pointer;
 }
 
@@ -70,7 +71,7 @@ input:-webkit-autofill {
 /* 滚动条的滑轨背景颜色 */
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ea9595;
+    background-color: #666666;
 }
 
 
@@ -93,9 +94,9 @@ input:-webkit-autofill {
 button,
 input,
 textarea {
-    /*-webkit-appearance: none;
+    -webkit-appearance: none;
     outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 div,
@@ -146,7 +147,7 @@ textarea {
 
 #header {
     width: 100%;
-    background: rgba(255, 255, 255, 1);
+    background: #f9f9f9;
     position: fixed;
     top: 0;
     left: 0;
@@ -320,7 +321,7 @@ textarea {
     width: 120px;
     border-radius: 3px;
     background-color: #fbf9f9;
-    border: 1px solid #e3e8e8;
+    border: 2px solid #e3e8e8;
     color: #635f5f;
     font-size: 14px;
     padding: 0 10px 0 30px;
@@ -334,7 +335,7 @@ textarea {
     -o-transition-delay: .1s;
 }
 
-#pc-menu .searchform #s:focus {
+#pc-menu .searchform>#s:focus {
     width: 200px;
     border: 2px solid #00BBFF;
 }
@@ -355,7 +356,6 @@ textarea {
 #foot .theme {
     font-family: "theme" !important;
     font-style: normal;
-    color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -377,7 +377,7 @@ textarea {
     margin-top: 5px;
     -webkit-box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
     box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
-    background: #fff;
+    background: #fafafa;
     border-radius: 2px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -476,7 +476,7 @@ textarea {
 .post-type-header .post-type-author a,
 .post-type-header .post-type-title a {
     font-weight: bold;
-    color: #000;
+    color: #666;
 }
 
 .post-type-header .post-type-author .publish-time {
@@ -531,7 +531,7 @@ textarea {
 }
 
 .post-type-header .thumbnail-shadow .post-info span a {
-    color: #fff;
+    color: #fafafa;
 }
 
 .post-type-header .post-relative {
@@ -973,10 +973,10 @@ textarea {
 .lite-item .lite-item-header {
     line-height: 38px;
     margin: 0;
-    background: #fcfcfc;
+    background: #efefef;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px solid #e3e8e8;
+    border-bottom: 1px solid #efefef;
     padding: 0 15px;
 }
 
@@ -1269,7 +1269,7 @@ textarea {
 }
 
 .lite-item .catch-me i:hover {
-    background-color: #0bf;
+    background-color: #6b6b6b;
     color: #fff
 }
 
@@ -1304,7 +1304,7 @@ textarea {
 
 .post-preview .post-preview--meta .post-preview--title a {
     text-decoration: none;
-    color: #000;
+    color: #666;
 }
 
 .post-preview .post-preview--meta .post-preview--title a:before {
@@ -1619,12 +1619,12 @@ textarea {
     height: 100%;
 }
 
-#back-to-top-text {
+.back-to-top-text {
     font-size: 10px;
     margin-left: 2px;
 }
 
-#foot #back-to-top {
+#foot .back-to-top {
     display: inline;
     z-index: 999;
     background: #fff;
@@ -1666,7 +1666,7 @@ textarea {
     border-radius: 5px;
 }
 
-#foot #back-to-top .Card-top,
+#foot .back-to-top .Card-top,
 #go-to-comment .Card-comments {
     font-size: 25px;
 }

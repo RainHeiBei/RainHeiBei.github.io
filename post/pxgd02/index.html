@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html id="bg">
+
+<head>
+    <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    *
+    * @author admin@itjoker.cn
+    * @link https://blog.itjoker.cn
+-->
+
+<title>
+    毛球-Dog协会-关于狗狗与创造
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="毛球-Dog协会-关于狗狗与创造">
+<meta name="description" content="我的世界资源开发团队毛球-Dog协会官网。">
+<meta name="keywords" content="毛球-Dog协会官网,MDA官网">
+<meta name="gridea-theme" content="Card">
+<meta name="spider" content="https://nmsl.sbjxw.网址">
+<meta name="UpdateTime" content="1599898490971">
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/Card/script.min.js"></script>-->
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/main.min.css" />-->
+<script src="https://RainHeiBei.github.io/media/js/script.min.js"></script>
+<link rel="stylesheet" href="https://RainHeiBei.github.io/media/css/main.min.css" />
+<link rel="stylesheet" href="https://RainHeiBei.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.36/CDN/js/love.min.js"></script>
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script>
+    $().ready(
+        function() {
+            var themeIcon = document.getElementById("themeIcon");
+            var currentTheme = window.localStorage.getItem('theme');
+            if (currentTheme == 'dark') {
+                document.getElementsByTagName('html')[0].classList.add('theme-dark');
+                themeIcon.classList.remove('Card-moon');
+                themeIcon.classList.add('Card-sun');
+            } else {
+                document.getElementsByTagName('html')[0].classList.remove('theme-dark');
+                themeIcon.classList.remove('Card-sun');
+                themeIcon.classList.add('Card-moon');
+            }
+        }
+    )
+</script>
+
+    <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    
+        
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+            
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
+                        }
+                        
+                        #foot {
+                            color: #666666;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .gray {
+                            -webkit-filter: grayscale(100%);
+                            /* webkit */
+                            -moz-filter: grayscale(100%);
+                            /*firefox*/
+                            -ms-filter: grayscale(100%);
+                            /*ie9*/
+                            -o-filter: grayscale(100%);
+                            /*opera*/
+                            filter: grayscale(100%);
+                            filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                            filter: gray;
+                            /*ie9- */
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        .lite-item {
+                            background-color: #fafafa;
+                        }
+                        
+                        #spnBtn:hover {
+                            transition: all .3s ease;
+                            color: #fff;
+                            background-color: #6b6b6b;
+                            /*#0092ee*/
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #spnBtn {
+                            background-color: #efefef;
+                            font-size: 14px;
+                            transition: all .3s ease;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #6b6b6b;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
+</head>
+
+<body>
+    <header id="header">
+
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://RainHeiBei.github.io">
+            毛球-Dog协会-关于狗狗与创造
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
+                
+                    <li id="menu-item" class="menu-item">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://RainHeiBei.github.io/post/brief introduction">
+                            团队简介
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://RainHeiBei.github.io/post/archives">
+                            大数据
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://support.qq.com/product/140377">
+                            反馈平台
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://bcys.fandom.com/zh/f">
+                            《北辰逸事》漫画社区
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="https://mda.fandom.com/zh">
+                            团队社区
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="/post/about">
+                            关于
+                        </a>
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item">
+                        <a href="baidu_verify_YbEcaIjdQL.html">
+                            （没用）
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1599898490971" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1599898490971" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://RainHeiBei.github.io/post/brief introduction">
+                            团队简介
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://RainHeiBei.github.io/post/archives">
+                            大数据
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://support.qq.com/product/140377">
+                            反馈平台
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://bcys.fandom.com/zh/f">
+                            《北辰逸事》漫画社区
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="https://mda.fandom.com/zh">
+                            团队社区
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/post/about">
+                            关于
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="baidu_verify_YbEcaIjdQL.html">
+                            （没用）
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
+    <a id="theme-btn" class="theme-btn" onclick="App.changeTheme()"><i id="themeIcon" class="Card Card-moon"></i></a>
+</header>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                <div class="thumbnail-link" style="background-image: url('https://RainHeiBei.github.io/post-images/pxgd02.png')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                「小说」《平行国度》02、平行设计策划学校
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
+                                        
+                                            <span onclick="javascript:top.location='https://RainHeiBei.github.io/tag/ZGy8lcx4Q/'">小说</span>
+                                                
+                                            <span onclick="javascript:top.location='https://RainHeiBei.github.io/tag/u7iNCo0OUQ/'">平行国度</span>
+                                                
+                                                    </span>
+                                                    <span class="post-view">
+                                                    
+                                                        &nbsp;•&nbsp;
+                                                        <span class="post-meta-item-text"><i class="Card Card-view"></i>&nbsp;阅读量&nbsp;</span>
+                                                        <span data-hk-page="current"> - </span>
+                                                        
+                                                            </span>&nbsp;•&nbsp;
+
+                                                            <span class="post-readtime">阅读时间:
+                                            2.3分</span>
+                                                            <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="毛球-Dog协会-关于狗狗与创造" src="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" srcset="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://RainHeiBei.github.io" title="由毛球-Dog协会-关于狗狗与创造发布" rel="author">毛球-Dog协会-关于狗狗与创造<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2020-09-12</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>黑贝一行三人来到了平行市平行设计学校旁，只见那里熙熙攘攘，可见，大多数市民的设计方案都没有被“核心”选中。　　<br>
+“黑贝，欢迎来到‘平行市平行设计学校’！请来到此处登记，并且参与考试，谢谢配合！”　　<br>
+黑贝抬头一看，原来是校门口一个AI机器人在对他说话。<br>
+在这个时代，所有智能的AI设备都拥有人脸识别的能力。　　<br>
+“黑贝，微季，我们仨还是一行走吧！我们可是豆皮三人组呢！”小李说。　　<br>
+“就是啊，我真希望我们还能在一个班里。”微季说。　　<br>
+校门口依然人声鼎沸，十分喧闹......　　经过短暂的测试后，果然在三人的意料内---黑贝，微季和小李被分到了同一个班。　　<br>
+走进班级，四周都是陌生的面孔。同学们来自平行市的五洲四海，有的甚至是费了很多的精力和财力从遥远的城市来到这里。　　<br>
+有的同学可能也像黑贝他们一样，是“组队”来学校的，有的虽没见过面，但天生自来熟，还有的看有共同语言，就现场组成了小团队。　　<br>
+黑贝从公文包里拿出了一张平面，准备用它来拍几张学校的照片，可是还没等他按下快门，就听到有同学惊呼起来：　　<br>
+“看哪！那不是黑贝吗？！”　　<br>
+“就是啊就是啊！微季和小李也在呢！”　　<br>
+“......”<br>
+也不知是谁大喊了一声，好像所有人都听从他的指令，纷纷抛下手中正着手的事，纷纷围在黑贝、微季、小李旁边。　　<br>
+“大佬，你们...你们能加我一下Wechat吗？”　　<br>
+“走开----大佬、神仙！你们能看看我的twitter吗？顺便互关呗！”　　<br>
+“神仙啊！关注下我可怜的YouTube号吧！上面一个粉丝也没有啊！”　　<br>
+“......”　　<br>
+小李可受不了这么多人围拢着他的那种感觉，他怒吼一声：　　<br>
+“你们，够了！！！你们和我们一样，是来这学习的！而不是在这讨人气的！”　　<br>
+可是，小李的怒吼貌似起不到任何作用，学生中，竟有调皮的同学，不知是怀着什么心理，竟然丢了个蘑菇到小李的桌上，小李当场差点暴毙，要不是有微季扶着他，他估计就晕倒了！　　<br>
+“你们，就算是我们的狂热粉丝，也别这样过分吧！”黑贝见势，有些气愤的说。　　<br>
+“就是啊，我们是来这里学习的，你们也是来这里学习的，互相学习难道不好吗？”微季也跟着说道。　　“呵呵，现在的人都什么审美啊？！”　　<br>
+也不知是谁在角落里说道......</p>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                毛球-Dog协会-关于狗狗与创造<br>永久链接:
+                                    <a href="https://RainHeiBei.github.io/post/pxgd02/" title="「小说」《平行国度》02、平行设计策划学校">
+                                        https://RainHeiBei.github.io/post/pxgd02/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://RainHeiBei.github.io/post/pxgd03/">
+                                <i class="fa fa-chevron-left"></i>
+                                「小说」《平行国度》03、冲突
+                            </a>
+                        </div>
+                        
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://RainHeiBei.github.io/post/xb/">
+                                        QQ音乐获得认证！<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://RainHeiBei.github.io/post/pxgd02/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://RainHeiBei.github.io/post/pxgd02/&sharesource=qzone&title=「小说」《平行国度》02、平行设计策划学校&pics=https://RainHeiBei.github.io/images/avatar.png?v=1599898490971&summary="><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://RainHeiBei.github.io/post/pxgd02/&sharesource=weibo&title=「小说」《平行国度》02、平行设计策划学校 + " - " + &pic="https://RainHeiBei.github.io/images/avatar.png?v=1599898490971"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '5033f9bb05b067080c9d',
+        clientSecret: '73a5446a3b08fb8f077c9c88abde0ee43709ad3e',
+        repo: 'RainHeiBei.github.io',
+        owner: 'RainHeiBei',
+        admin: ['RainHeiBei'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+                <!--
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true"></i>
+                            </a>
+                            
+                    </div>
+                </li>-->
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        <div id='tags' style="height: auto;width: 360;"></div>
+                        <script src="https://RainHeiBei.github.io/media/js/svg3dtagcloud.min.js"></script>
+                        <script>
+                            $(document).ready(function() {
+                                var entries = ([
+                                    
+                                     {
+                                        label: '🏷小说',
+                                        url: 'https://RainHeiBei.github.io/tag/ZGy8lcx4Q/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷平行国度',
+                                        url: 'https://RainHeiBei.github.io/tag/u7iNCo0OUQ/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷团队事迹',
+                                        url: 'https://RainHeiBei.github.io/tag/A_gpGDFrg/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷公告',
+                                        url: 'https://RainHeiBei.github.io/tag/PS2DH94z3/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷杂谈',
+                                        url: 'https://RainHeiBei.github.io/tag/9Y9CpnccW/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷同人',
+                                        url: 'https://RainHeiBei.github.io/tag/09W7TnA_R/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷渲染图',
+                                        url: 'https://RainHeiBei.github.io/tag/WT1U433Eo/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷壁纸',
+                                        url: 'https://RainHeiBei.github.io/tag/mvAPk-tllT/',
+                                        target: '_button'
+                                    },
+                                    
+                                    
+                                     {
+                                        label: '🏷表彰特刊',
+                                        url: 'https://RainHeiBei.github.io/tag/6oBavRurB/',
+                                        target: '_button'
+                                    }
+                                    
+                                    
+                                ]);
+                                var settings = {
+                                    entries: entries, //数据
+                                    width: 300, //宽度
+                                    height: 300, //高度
+                                    radius: '50%',
+                                    radiusMin: 50,
+                                    bgDraw: false, //是否显示背景
+                                    bgColor: '#fff', //背景颜色
+                                    opacityOver: 1.00,
+                                    opacityOut: 0.05,
+                                    opacitySpeed: 6,
+                                    fov: 360,
+                                    speed: 0.3, //旋转的速度
+                                    fontFamily: 'Oswald, Arial, sans-serif',
+                                    fontSize: '18', //默认字体大小
+                                    fontColor: '#666', //默认字体颜色
+                                    fontWeight: 'normal', //bold
+                                    fontStyle: 'normal', //italic 
+                                    fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    fontToUpperCase: true,
+                                    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+                                    tooltipFontSize: '16',
+                                    tooltipFontColor: 'red',
+                                    tooltipFontWeight: 'normal', //bold
+                                    tooltipFontStyle: 'normal', //italic 
+                                    tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+                                    tooltipFontToUpperCase: false,
+                                    tooltipTextAnchor: 'left',
+                                    tooltipDiffX: 0,
+                                    tooltipDiffY: 5
+
+                                };
+
+                                //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+                                $('#tags').svg3DTagCloud(settings);
+                            });
+                        </script>
+                    </div>
+                </li>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                        <li class="lite-item">
+                            <header class="lite-item-header">
+                                <h3 class="lite-item-title">
+                                    &#x1F3B5;&#x97F3;&#x4E50;
+                                </h3>
+                            </header>
+                            <div class="textwidget">
+                                <p>
+                                    <div id="playerbox"></div>
+                                </p>
+                            </div>
+                        </li>
+                        
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: 'Shop',
+                                        url: 'http://music.163.com/song/media/outer/url?id=39224619.mp3',
+                                        artist: 'Toby Fox',
+                                        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001j2IHy2CkIaz_2.jpg?max_age=2592000',
+                                    });
+                                    
+                                    music_array.push({
+                                        name: 'Snowdin Town',
+                                        url: 'http://music.163.com/song/media/outer/url?id=39227596.mp3',
+                                        artist: 'Toby Fox',
+                                        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001j2IHy2CkIaz_2.jpg?max_age=2592000',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('playerbox'),
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
+                            
+                                
+                                    <script>
+                                        App.weather();
+                                    </script>
+                                    <li class="lite-item">
+                                        <header class="lite-item-header">
+                                            <h3 class="lite-item-title">&#x26C5;&#x5929;&#x6C14;</h3>
+                                        </header>
+                                        <div class="textwidget">
+                                            <div id="tp-weather-widget"></div>
+                                        </div>
+                                    </li>
+                                    
+                                        
+                                            
+                                                
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="lite-item-title">
+                                                                🐶毛球最可爱了
+                                                            </h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            <div id="textwidget-box" style="width:100%; height:auto;">
+                                                                难道不是吗？
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                        
+                                                            <li class="lite-item">
+                                                                <header class="lite-item-header">
+                                                                    <h3 class="lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                                </header>
+                                                                <div class="textwidget">
+                                                                    
+                                                                        
+                                                                            <p onclick="javascript:top.location='https://github.com/'"><span class="link_a"><a href="https://github.com/" alt="GitHub · Build software better, together ">GitHub · Build software better, together -</a></span></p>
+
+                                                                            
+                                                                            <p onclick="javascript:top.location='https://www.163.com/'"><span class="link_a"><a href="https://www.163.com/" alt="网易 ">网易 -</a></span></p>
+
+                                                                            
+                                                                                
+                                                                </div>
+                                                            </li>
+    </ul>
+</div>
+        </div>
+
+</body>
+<footer id="foot">
+    <a class="back-to-top" href="#"><i class="Card Card-top" ></i><span class="back-to-top-text">0%</span></a>
+    <div class="copyright">
+        Copyright© 2015-2020 Maoqiu Dog  association all rights reserved
+            
+                    
+
+                        <div style="font-size:12px">
+                            
+                                        已经建站 <b id='build_time'></b>
+                        </div>
+                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/time.min.js"></script>
+                        <script>
+                            buildTime = '2020-4-10'
+                            setInterval(show_date_time, 1000, buildTime);
+                        </script>
+                        
+                            &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <script>
+                                var date = new Date();
+                                data2 = new Date(buildTime.replace(/-/g, "/"));
+                                nowYear = date.getFullYear().toString()
+                                buildYear = data2.getFullYear().toString();
+                                if (buildYear == nowYear) {
+                                    document.write('<span class="my-face">' + nowYear + '</span>');
+                                } else {
+                                    document.write(buildYear + '-<span class="my-face">' + nowYear + '</span>');
+                                }
+                            </script>
+
+                            <a href="https://RainHeiBei.github.io">
+                                毛球-Dog协会-关于狗狗与创造
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://rainheibei.github.io/" target="_blank">
+                                毛球-Dog协会
+                            </a>
+    </div>
+    <script>
+        let back2TopText = document.querySelector('.back-to-top-text')
+        window.addEventListener('scroll', function(e) {
+            let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+            if (back2TopText) {
+                back2TopText.textContent = Math.floor(percent).toString() + '%';
+            }
+        });
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.clearLog();
+        App.outputlog();
+        var logo = '%c毛球-Dog协会-关于狗狗与创造\'%cBlog';
+        console.info(
+            logo,
+            'color: #ffffff; background: #000000; padding:5px 10px 5px 10px;font-size:40px;border-radius:12px 0 0 12px;', 'color: #000000; background: #FE9A00; padding:5px 10px;font-size:40px;border-radius:0 12px 12px 0;'
+        );
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
+
+</html>
