@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://RainHeiBei.github.io</id>
     <title>毛球-Dog协会-关于狗狗与创造</title>
-    <updated>2021-01-22T12:43:22.584Z</updated>
+    <updated>2021-01-26T13:53:15.691Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://RainHeiBei.github.io"/>
     <link rel="self" href="https://RainHeiBei.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://RainHeiBei.github.io/images/avatar.png</logo>
     <icon>https://RainHeiBei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 毛球-Dog协会-关于狗狗与创造</rights>
+    <entry>
+        <title type="html"><![CDATA[BCYS微季的梦境01 午夜森林]]></title>
+        <id>https://RainHeiBei.github.io/post/bcyswjdmj01/</id>
+        <link href="https://RainHeiBei.github.io/post/bcyswjdmj01/">
+        </link>
+        <updated>2021-01-26T13:47:30.000Z</updated>
+        <content type="html"><![CDATA[<p>作者 Rain黑贝<br>
+编剧 微季<br>
+<img src="https://RainHeiBei.github.io/post-images/1611668936116.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668940676.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668944584.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668948150.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668953086.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668956073.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668959967.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668966255.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668970122.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668987517.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668991149.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611668995334.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669010697.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669015134.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669019060.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669022802.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669040571.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669045350.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669048849.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669061663.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669122741.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669126959.png" alt="" loading="lazy"><br>
+<img src="https://RainHeiBei.github.io/post-images/1611669130541.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[北辰逸事05 旅途]]></title>
         <id>https://RainHeiBei.github.io/post/bcys05/</id>
@@ -292,18 +325,6 @@ Name It's unbelieveable<br>
 到现在，100天了，这个网站很好。<br>
 这100天是怎样的呢？快乐的，真的<br>
 就这样，一起庆祝吧！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「杂谈」如何去养一只宠物]]></title>
-        <id>https://RainHeiBei.github.io/post/zatanraiseapet/</id>
-        <link href="https://RainHeiBei.github.io/post/zatanraiseapet/">
-        </link>
-        <updated>2020-07-15T04:13:47.000Z</updated>
-        <content type="html"><![CDATA[<p>先买一只然后给它买点吃的用的就OK了<br>
-<img src="https://RainHeiBei.github.io/post-images/1594786585717.png" alt="" loading="lazy"><br>
-<img src="https://RainHeiBei.github.io/post-images/1594787099676.jpg" alt="" loading="lazy"><br>
-<img src="https://RainHeiBei.github.io/post-images/1594787106617.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
